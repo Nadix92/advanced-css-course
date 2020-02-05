@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  margin: 0; /* Removes the defualt padding and margin on every element */
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  //This defines what 1rem is (10px)
+  font-size: 62.5%; /* Setting the Root font size */
+}
+
+body {
+  box-sizing: border-box; /* Makes borders and paddings no longer added to the total width and height that is spesified for a box  */
+}
+

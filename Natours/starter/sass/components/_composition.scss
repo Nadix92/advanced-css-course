@@ -2,6 +2,7 @@
   position: relative;
 
   &__photo {
+    // ### This class dont get applied why? ###
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
     border-radius: 2px;
@@ -11,16 +12,43 @@
     outline-offset: 2rem;
 
     &--p1 {
+      
+      // width: 55%;
+      // box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+      // border-radius: 2px;
+      // position: absolute;
+      // z-index: 10;
+      // transition: all 0.2s;
+      // outline-offset: 2rem;
+
       left: 0;
       top: -2rem;
     }
 
     &--p2 {
+      
+      // width: 55%;
+      // box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+      // border-radius: 2px;
+      // position: absolute;
+      // z-index: 10;
+      // transition: all 0.2s;
+      // outline-offset: 2rem;
+
       right: 0;
       top: 2rem;
     }
 
     &--p3 {
+      
+      // width: 55%;
+      // box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+      // border-radius: 2px;
+      // position: absolute;
+      // z-index: 10;
+      // transition: all 0.2s;
+      // outline-offset: 2rem;
+
       left: 20%;
       top: 10rem;
     }

@@ -25,4 +25,13 @@
   overflow: hidden; // if elements / sections dont line up can use this
 
   object-fit: cover; // makes the object fits the whole section
+
+  // skrålinje av bilde
+  background-image: linear-gradient(
+      105deg,
+      rgba($color-white, 0.9) 0%,
+      rgba($color-white, 0.9) 50%,
+      transparent 50%
+    ),
+    url(../img/nat-10.jpg);
 }

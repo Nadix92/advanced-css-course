@@ -1,0 +1,12 @@
+.my-notes {
+  // A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+  margin: 0 auto; // center block element inside an block element if width is less then 100%
+
+  box-shadow: 0 1.5rem 4rem rgba(#000, 0.15); // Makes a shadow on an element
+
+  transform: skewX(-12deg); // skew the main element
+
+  & > * {
+    transform: skewX(12deg); // skew all the other elements back to the orginal positions
+  }
+}

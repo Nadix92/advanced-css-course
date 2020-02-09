@@ -1,12 +1,28 @@
 .my-notes {
   // A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
   margin: 0 auto; // center block element inside an block element if width is less then 100%
-
+  position: relative; // so we can use absolute on childs
   box-shadow: 0 1.5rem 4rem rgba(#000, 0.15); // Makes a shadow on an element
-
   transform: skewX(-12deg); // skew the main element
 
   & > * {
     transform: skewX(12deg); // skew all the other elements back to the orginal positions
   }
+
+  // this values centers an element
+  &__center-element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  transition: all 0.5s; // for animations
+  backface-visibility: hidden; // removes the shakeing in animations or transisions
+
+  filter: blur(3px) brightness(80%); // ? val < 100% = darker : lighter
+
+  overflow: hidden; // if elements / sections dont line up can use this
+
+  object-fit: cover; // makes the object fits the whole section
 }

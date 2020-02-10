@@ -1,6 +1,6 @@
 .form {
   &__group:not(:last-child) {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
   }
 
   // By defualt input elements don't inherit font propertys
@@ -11,7 +11,7 @@
     padding: 1.5rem 2rem;
     border-radius: 2px;
     background-color: rgba($color-white, 0.5);
-    border-bottom: 1px solid transparent;
+    border-bottom: 3px solid transparent;
     width: 90%;
     display: block; // makes each element have 1 line each so we get placeholder under the input
     transition: all 0.3s; // makes some blinking might need to remove it
@@ -52,7 +52,7 @@
 
   &__radio-group {
     width: 49%;
-    display: inline; // make it displayed side by side
+    display: inline-block; // make it displayed side by side
   }
 
   &__radio-input {
@@ -88,6 +88,7 @@
       transform: translate(-50%, -50%);
       background-color: $color-primary;
       opacity: 0;
+      transition: opacity 0.2s;
     }
   }
 

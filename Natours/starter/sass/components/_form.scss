@@ -1,0 +1,51 @@
+.form {
+  &__group:not(:last-child) {
+    padding-bottom: 2rem;
+  }
+
+  // By defualt input elements don't inherit font propertys
+  &__input {
+    font-size: 1.5rem;
+    font-family: inherit; // inherit font fameli we set in body
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rgba($color-white, 0.5);
+    border-bottom: 1px solid transparent;
+    width: 90%;
+    display: block; // makes each element have 1 line each so we get placeholder under the input
+
+    &:focus {
+      outline: none; // removes the focus blur on element
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+      border-bottom: 3px solid $color-primary;
+    }
+
+    // Targets focused + invalid input element
+    &:focus:invalid {
+      border-bottom: 3px solid $color-secoundary-dark;
+    }
+
+    &::-webkit-input-placeholder {
+      color: $color-gray-dark-2;
+    }
+  }
+
+  &__label {
+    font-size: 1.2rem;
+    font-weight: 700; // bold
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+  }
+
+  // + = first sibling, ~ = target spesific sibling on same lvl
+  // subling selector only works if the element u wanna target is after the first element
+  // aka first input THEN label
+  &__input:placeholder-shown + &__label {
+    opacity: 0; // We set this so we can animate it
+    visibility: hidden;
+    transform: translateY(-4rem);
+  }
+}

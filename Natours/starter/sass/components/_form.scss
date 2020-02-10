@@ -14,6 +14,7 @@
     border-bottom: 1px solid transparent;
     width: 90%;
     display: block; // makes each element have 1 line each so we get placeholder under the input
+    transition: all 0.3s; // makes some blinking might need to remove it
 
     &:focus {
       outline: none; // removes the focus blur on element

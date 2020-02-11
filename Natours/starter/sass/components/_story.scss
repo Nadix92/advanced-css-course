@@ -10,6 +10,11 @@
   font-size: $defult-font-size;
   transform: skewX(-12deg);
 
+  @include respond(tab-port) {
+    width: 100%;
+    // Keep codeing here ############################
+  }
+
   // & > * {
   //   transform: skewX(12deg);
   // }

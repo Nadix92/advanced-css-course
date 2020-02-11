@@ -28,4 +28,9 @@ html {
 
 body {
   box-sizing: border-box; /* Makes borders and paddings no longer added to the total width and height that is spesified for a box  */
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 }

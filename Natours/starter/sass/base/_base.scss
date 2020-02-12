@@ -22,7 +22,7 @@ html {
 
   @include respond(big-desk) {
     // width > 1800px?
-    font-size: 75%; // 1 rem = 12px, 12/16 = 75%
+    font-size: 70%; // 1 rem = 12px, 12/16 = 75%
   }
 }
 

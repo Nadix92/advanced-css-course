@@ -16,6 +16,10 @@
     display: block; // makes each element have 1 line each so we get placeholder under the input
     transition: all 0.3s; // makes some blinking might need to remove it
 
+    @include respond(tab-port) {
+      width: 100%;
+    }
+
     &:focus {
       outline: none; // removes the focus blur on element
       box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
@@ -53,6 +57,11 @@
   &__radio-group {
     width: 49%;
     display: inline-block; // make it displayed side by side
+
+    @include respond(tab-port) {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
   }
 
   &__radio-input {

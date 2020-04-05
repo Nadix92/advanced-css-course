@@ -1,5 +1,7 @@
 {
-  "cSpell.words": ["kristian"],
+  "cSpell.words": ["kristian", "xlink"],
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
 
   // Set your exported CSS Styles, Formats & save location.
   "liveSassCompile.settings.formats": [

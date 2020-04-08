@@ -1,12 +1,5 @@
 {
-  "cSpell.words": [
-    "albuferia",
-    "kristian",
-    "palmas",
-    "trillo",
-    "wifi",
-    "xlink"
-  ],
+  "cSpell.words": ["albuferia", "kristian", "palmas", "trillo", "wifi", "xlink"],
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
 
@@ -16,7 +9,7 @@
       // Customizable exported CSS Style (expanded, compact, compressed, nested)
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "/css/"
+      "savePath": "~/../css/"
     }
 
     /*  

@@ -55,8 +55,6 @@ body {
   line-height: 1.6;
   color: var(--color-grey-dark-2);
   background-image: -webkit-gradient(linear, left top, right bottom, from(var(--color-primary-light)), to(var(--color-primary-dark)));
-  background-image: -webkit-linear-gradient(left top, var(--color-primary-light), var(--color-primary-dark));
-  background-image: -o-linear-gradient(left top, var(--color-primary-light), var(--color-primary-dark));
   background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
   background-size: cover;
   background-repeat: no-repeat;
@@ -184,7 +182,6 @@ body {
   border-radius: 100px;
   width: 90%;
   -webkit-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
   margin-right: -3.25rem;
 }
@@ -215,7 +212,6 @@ body {
 
 .search__button:active {
   -webkit-transform: translateY(2px);
-      -ms-transform: translateY(2px);
           transform: translateY(2px);
 }
 
@@ -312,18 +308,15 @@ body {
   width: 3px;
   background-color: var(--color-primary);
   -webkit-transform: scaleY(0);
-      -ms-transform: scaleY(0);
           transform: scaleY(0);
   -webkit-transition: width 0.4s 0.2s, cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s, -webkit-transform 0.2s;
   transition: width 0.4s 0.2s, cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s, -webkit-transform 0.2s;
-  -o-transition: transform 0.2s, width 0.4s 0.2s, cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s;
   transition: transform 0.2s, width 0.4s 0.2s, cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s;
   transition: transform 0.2s, width 0.4s 0.2s, cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s, -webkit-transform 0.2s;
 }
 
 .side-nav__item:hover::before, .side-nav__item--active::before {
   -webkit-transform: scaleY(1);
-      -ms-transform: scaleY(1);
           transform: scaleY(1);
   width: 100%;
 }
@@ -459,14 +452,12 @@ body {
   background-color: transparent;
   cursor: pointer;
   -webkit-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 .btn-inline span {
   margin-left: 3px;
   -webkit-transform: margin-left 0.2s;
-      -ms-transform: margin-left 0.2s;
           transform: margin-left 0.2s;
 }
 
@@ -601,6 +592,7 @@ body {
   -webkit-box-shadow: var(--shadow-light);
           box-shadow: var(--shadow-light);
   padding: 3rem;
+  margin-bottom: 3.5rem;
   position: relative;
   overflow: hidden;
 }

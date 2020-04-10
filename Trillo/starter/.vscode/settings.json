@@ -1,7 +1,7 @@
 {
   "cSpell.words": ["albuferia", "kristian", "palmas", "trillo", "wifi", "xlink"],
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "visible", //hidden to hide
+  "editor.scrollbar.vertical": "visible",
 
   // Set your exported CSS Styles, Formats & save location.
   "liveSassCompile.settings.formats": [
@@ -12,15 +12,15 @@
       "savePath": "~/../css/"
     }
 
-    /*  
+    /* 
     // for Build version later
     ,{
       "format": "compressed",
       "extensionName": ".min.css",
       "savePath": "/css"
-    }, 
+    } 
     */
   ],
-  // "liveSassCompile.settings.generateMap": false,
+  // "liveSassCompile.settings.generateMap": false, // if u wanna remove the .map file
   "liveSassCompile.settings.autoprefix": ["> 1%", "last 5 versions"]
 }

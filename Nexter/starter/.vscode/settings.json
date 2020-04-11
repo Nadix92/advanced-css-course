@@ -1,0 +1,10 @@
+{
+  "cSpell.words": ["kristian"],
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css/"
+    }
+  ]
+}

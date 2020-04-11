@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AWIA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GA0DG;AAIH,AAAA,WAAW,CAAC;EACV,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,SAAS;EACjB,KAAK,EAAE,MAAM;EAEb,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;EAET,kBAAkB,GACf,YAAY,EAAE,KAAK,EAAE,UAAU,CAAC,SAAS,EAAE,KAAK,EAAE,OAAO,CAAC,UAAU,EACrE,KAAK,EAAE,QAAQ,CAAC,YAAY,EAAE,KAAK,EAAE,UAAU;EAEjD,qBAAqB,EAAE,oCAAoC,CAAC,KAAK,EAAE,QAAQ;CAS5E;;AArBD,AAcE,WAdS,GAcL,CAAC,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,UAAU;EACvB,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,SAAS;CAC5B;;AAGH,AAAA,OAAO,CAAC;EACN,WAAW,EAAE,sBAAsB;CACpC;;AAED,AAAA,QAAQ,CAAC;EACP,WAAW,EAAE,oBAAoB;EACjC,QAAQ,EAAE,oBAAoB;CAC/B;;AAED,AAAA,aAAa,CAAC;EACZ,WAAW,EAAE,uBAAuB;CACrC;;AAED,AAAA,OAAO,CAAC;EACN,WAAW,EAAE,sBAAsB;EACnC,QAAQ,EAAE,yBAAyB;CACpC",
     "sources": [
         "../sass/main.scss",
         "../sass/_base.scss",
@@ -12,7 +12,8 @@
         "../sass/_story.scss",
         "../sass/_homes.scss",
         "../sass/_gallery.scss",
-        "../sass/_footer.scss"
+        "../sass/_footer.scss",
+        "../sass/_test.scss"
     ],
     "names": [],
     "file": "main.css"

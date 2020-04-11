@@ -1,5 +1,8 @@
 {
-  "cSpell.words": ["kristian"],
+  "cSpell.words": [
+    "flexbox",
+    "kristian"
+  ],
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
